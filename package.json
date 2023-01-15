@@ -1,7 +1,7 @@
 {
-  "name": "weather-cli-atr",
+  "name": "get-lat-long",
   "version": "1.0.0",
-  "description": "displays current location weather details",
+  "description": "displays current location",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
