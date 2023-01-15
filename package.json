@@ -1,0 +1,17 @@
+{
+  "name": "weather-cli-atr",
+  "version": "1.0.0",
+  "description": "displays current location weather details",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Athithyan R",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
