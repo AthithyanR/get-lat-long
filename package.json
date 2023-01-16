@@ -1,6 +1,6 @@
 {
   "name": "get-lat-long",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "displays current location",
   "main": "src/index.js",
   "bin": "lib/index.js",
