@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "displays current location",
   "main": "src/index.js",
-  "type": "module",
   "bin": "lib/index.js",
   "scripts": {
     "prepublish": "babel src --out-dir lib"

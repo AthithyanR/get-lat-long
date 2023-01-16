@@ -8,10 +8,5 @@ if (args.length < 1 || args.length > 1) {
 }
 const [city] = args;
 
-import { readFile } from 'fs/promises';
-const data = JSON.parse(
-  await readFile(
-    new URL('../data/data.json', import.meta.url)
-  )
-);
+const data = require('../data/data.json')
 console.log(data.find((obj) => obj.city_ls.includes(city)) || 'No matches found')
